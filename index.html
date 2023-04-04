@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="ct-main">
+      <div class="area-input-data">
+
+        <div class="i-day i-date">
+          <label for="day" class="label-day">Day</label>
+          <input class="input-date" id="input-day" type="day" name="day" placeholder="DD">
+        </div>
+        <div class="i-month i-date">
+          <label for="month" class="label-month">Month</label>
+          <input class="input-date" id="input-month" type="" name="month" placeholder="MM">
+        </div>
+        <div class="i-year i-date">
+          <label for="year" class="label-year">Year</label>
+          <input class="input-date" id="input-year" type="year" name="year" placeholder="YYYY">
+        </div>
+
+      </div>
+
+
+      <div class="area-div">
+          
+        <hr class="line-div">
+        <button id="btn-arrow" class="icon-arrow" onclick="calcAge()"></button>
+
+      </div>
+
+      <div class="area-result-data">
+
+        <div class="r-year r-date">
+          <p class="desc-year" id="result-year">- -</p>
+          <p class="info-year">years</p>
+        </div>
+        <div class="r-month r-date">
+          <p class="desc-month" id="result-month">- -</p>
+          <p class="info-month">months</p>
+        </div>
+        <div class="r-day r-date">
+          <p class="desc-day" id="result-day">- -</p>
+          <p class="info-day">days</p>
+        </div>
+
+      </div>
+     
+    </div>
+
+      
+    
+  </main>
+  
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
