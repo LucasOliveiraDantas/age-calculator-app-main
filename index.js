@@ -27,6 +27,6 @@ function calcAge(){
 	 var dateDay = dateDayNow.getDay()
 
 
-	 document.getElementById('result-day').innerHTML = ((parseInt(Iday) - dateDay - 1)- 1)
+	 document.getElementById('result-day').innerHTML = ((parseInt(Iday) - dateDay)- 1)
 	 
 }		
